@@ -1,0 +1,40 @@
+.wishlist-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.wishlist-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.wishlist-item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.wishlist-item:hover {
+  transform: scale(1.03);
+}
+
+.wishlist-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.remove-btn {
+  margin-top: 10px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
